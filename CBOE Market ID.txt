@@ -58,7 +58,7 @@ _pcr_stag_factor = 1 + ( _odd_pcr_stagnant / 100 )
 
 // Money Flow Index Period
 
-t_mfi   = 5
+t_mfi   = input(5 , title = "Period" , minval = 5)
 
 
 // Essential Functions 
